@@ -1,31 +1,53 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+/*Downloaded from https://www.codeseek.co/BradleyBeeke/a-codepen-clone-upCyb */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+*{
+  margin:0;
+  padding:0;  
 }
-body {
-  height: 100vh;
-  display: flex;
+body,html{
+  height:100%;
+  width:100%;
+
 }
-.code-area {
-  display: flex;
-  flex-direction:column;
-  width: 50%;
-  border-right:1px solid #555;
+#code{
+  width:25%;
+  float:right;
 }
-.code-area textarea {
-  resize: none;
-  outline: none;
-  width: 100%;
-  height: 33.33%;
-  font-size: 18px;
-  padding: 10px;
+iframe{
+  width:75%;
+  float:left;
+  height:100%;
+  border:0;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-.preview-area {
-  width: 50%;
+#iframes{
+height:100%;
+width:75%;
+float:left;
 }
-.preview-area iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
+*{
+margin:0;
+padding:0;
 }
+html,body{
+width:100%;
+height:100%;
+position:relative;
+}
+#code{
+float:left;
+width:25%;
+}
+section{
+float:right;
+height:33.333333%;
+position:absolute;
+width:24.7%;
+}
+textarea{
+height:97.6%;
+width:100%;
+}
+#js{bottom:0;}
+#css{top:33.3%}
+#html{top:0;}
